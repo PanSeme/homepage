@@ -1,0 +1,150 @@
+*{
+margin: 0;
+padding:0;
+}
+
+@font-face {
+  font-family: "exo";
+  src: url('../fonts/Exo2-Regular.otf') format('truetype');
+}
+body{
+font-family: Exo2, Helvetica, sans-serif;
+font: 20px "exo";
+background-color:#f4f4f4;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+  overflow: auto;
+}
+
+.button1{
+  height: 47px;
+  background: #F7C59F;
+  border: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #2A324B;
+  font-family: Exo2, Helvetica, sans-serif;
+  font: 11px "exo";
+  font-weight: bold;
+}
+
+header{
+background:#324a5e;
+color:#ffffff;
+padding-top:30px;
+min-height:70px;
+border-bottom:#fc6f58 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo{
+  float: left;
+}
+
+header #logo h1{
+  margin: 1px;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color:#fc6f58;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #767B91;
+  font-weight: bold;
+}
+
+#showcase{
+  min-height: 400px;
+  background-image: url(../img/tlo.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      -webit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  text-align: center;
+  color: #ffffff
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 15px;
+
+}
+
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #4C4F5D;
+}
+
+#newsletter h1{
+  float: left;
+  margin-top: 9px;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 5px;
+
+}
+
+#newsletter input[type="email"]{
+  padding: 9px;
+  height: 25px;
+  width: 250px;
+}
+
+#boxes{
+  height: 400px;
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #324a5e;
+}
